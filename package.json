@@ -1,0 +1,29 @@
+{
+  "name": "nano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngrok": "ngrok http 8443",
+    "start_debug": "npm cache clean --force && DEBUG='*' node index.js",
+    "start": "npm cache clean --force && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.3",
+    "@supabase/supabase-js": "^2.49.3",
+    "@vercel/fetch": "^7.0.0",
+    "body-parser": "^1.20.3",
+    "cross-fetch": "^4.1.0",
+    "discord-api-types": "^0.37.119",
+    "discord-interactions": "^4.1.1",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "emoji.json": "^15.1.0",
+    "express": "^4.21.2",
+    "googleapis": "^148.0.0",
+    "vercel": "^41.0.2"
+  }
+}
