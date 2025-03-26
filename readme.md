@@ -21,3 +21,5 @@ https://discord.com/api/oauth2/authorize?client_id=1006948255181058078&permissio
 * ~~подключение к базе~~
 * ~~админские команды~~
 * РЕФАКТОРИНГ
+
+апд пакеты
