@@ -64,7 +64,7 @@ const auth = async () => {
   let jwtClient = new google.auth.JWT(
     privatekey.client_email,
     null,
-    privatekey.private_key,
+    privatekey.private_key.replace(/\\n/g, '\n'),
     [
       "https://www.googleapis.com/auth/drive",
       "https://www.googleapis.com/auth/drive.file",
